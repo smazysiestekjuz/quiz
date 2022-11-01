@@ -60,6 +60,9 @@ int main()
 
         cout<<"Twoja odpowiedz: ";
         cin>>odpowiedz;
+
+        transform(odpowiedz.begin(),odpowiedz.end(),odpowiedz.begin(), ::tolwer);
+
     }
 
     return 0;
