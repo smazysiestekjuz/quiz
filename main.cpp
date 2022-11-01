@@ -13,6 +13,7 @@ int main()
     string linia
 
     fstream plik;
+  //otwarcie pliku do oczytu
     plik.open("quiz.txt",ios::in);
 
 
