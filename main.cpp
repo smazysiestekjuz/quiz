@@ -28,10 +28,14 @@ int main()
     {
         switch(nr_linii)
         {
-            case 1: temat=linia; break;
-            case 2: nick=linia; break;
-            case 3: tresc[0] = linia; break;
-            case 4: odpA[0] = linia; break;
+            case 1: temat=linia;         break;
+            case 2: nick=linia;          break;
+            case 3: tresc[0] = linia;    break;
+            case 4: odpA[0] = linia;     break;
+            case 5: odpB[0] = linia;     break;
+            case 6: odpC[0] = linia;     break;
+            case 7: odpD[0] = linia;     break;
+            case 8: poprawna[0] = linia; break;
         }
 
 
