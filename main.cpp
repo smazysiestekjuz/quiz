@@ -55,6 +55,9 @@ int main()
         cout<<"B. "<<odpB[i]<<endl;
         cout<<"C. "<<odpC[i]<<endl;
         cout<<"D. "<<odpD[i]<<endl;
+
+        cout<<"Twoja odpowiedz: ";
+
     }
 
     return 0;
