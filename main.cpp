@@ -29,6 +29,7 @@ int main()
         switch(nr_linii)
         {
             case 1: temat=linia; break;
+            case 2: nick=linia; break;
         }
 
 
