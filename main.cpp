@@ -19,6 +19,7 @@ int main()
     if (plik.good()==flase)
     {
         cout<<"Nie udalo sie otworzyc pliku!";
+        exit(0);
     }
 
 
