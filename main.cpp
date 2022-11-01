@@ -29,15 +29,15 @@ int main()
     {
         switch(nr_linii)
         {
-            case 1: temat=linia;         break;
-            case 2: nick=linia;          break;
-            case 3: tresc[0] = linia;    break;
-            case 4: odpA[0] = linia;     break;
-            case 5: odpB[0] = linia;     break;
-            case 6: odpC[0] = linia;     break;
-            case 7: odpD[0] = linia;     break;
+            case 1: temat=linia;                  break;
+            case 2: nick=linia;                   break;
+            case 3: tresc[nr_pytania] = linia;    break;
+            case 4: odpA[nr_pytania] = linia;     break;
+            case 5: odpB[nr_pytania] = linia;     break;
+            case 6: odpC[nr_pytania] = linia;     break;
+            case 7: odpD[nr_pytania] = linia;     break;
             // poprawna odpowiedz na zadane pytanie
-            case 8: poprawna[0] = linia; break;
+            case 8: poprawna[nr_pytania] = linia; break;
         }
 
         if (nr_linii==8) {nr_linii=2; nr_pytania++;}
