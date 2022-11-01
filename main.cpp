@@ -27,6 +27,9 @@ int main()
     while(getline(plik,linia))
     {
 
+
+
+        nr_linii++;
     }
 
 
