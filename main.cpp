@@ -40,10 +40,11 @@ int main()
             case 8: poprawna[0] = linia; break;
         }
 
-
+        if (nr_linii==8) {nr_linii=2; nr_pytania++;}
         nr_linii++;
     }
 
+    plik.close();
 
     return 0;
 }
