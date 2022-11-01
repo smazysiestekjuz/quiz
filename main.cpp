@@ -8,6 +8,8 @@ string temat, nick;
 string tresc[5];
 string odpA[5], odpB[5], odpC[5], odpD[5];
 string poprawna [5];
+string odpowiedz;
+int punkty=0;
 
 int main()
 {
