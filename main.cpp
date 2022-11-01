@@ -9,6 +9,13 @@ string poprawna [5];
 
 int main()
 {
-    cout << "Hello world!" << endl;
+    int nr_linii=1;
+    string linia
+
+    fstream plik;
+    plik.open("quiz.txt",ios::in);
+
+
+
     return 0;
 }
