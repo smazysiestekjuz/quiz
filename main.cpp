@@ -13,7 +13,7 @@ int main()
 {
     int nr_linii=1;
     string linia;
-    int nr_pytania
+    int nr_pytania=0;
 
     fstream plik;
   //otwarcie pliku do oczytu
