@@ -57,7 +57,7 @@ int main()
         cout<<"D. "<<odpD[i]<<endl;
 
         cout<<"Twoja odpowiedz: ";
-
+        cin>>odpowiedz;
     }
 
     return 0;
