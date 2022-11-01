@@ -12,7 +12,8 @@ string poprawna [5];
 int main()
 {
     int nr_linii=1;
-    string linia
+    string linia;
+    int nr_pytania
 
     fstream plik;
   //otwarcie pliku do oczytu
