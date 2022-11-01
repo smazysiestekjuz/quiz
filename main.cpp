@@ -31,6 +31,7 @@ int main()
             case 1: temat=linia; break;
             case 2: nick=linia; break;
             case 3: tresc[0] = linia; break;
+            case 4: odpA[0] = linia; break;
         }
 
 
