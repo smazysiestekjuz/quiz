@@ -35,6 +35,7 @@ int main()
             case 5: odpB[0] = linia;     break;
             case 6: odpC[0] = linia;     break;
             case 7: odpD[0] = linia;     break;
+            // poprawna odpowiedz na zadane pytanie
             case 8: poprawna[0] = linia; break;
         }
 
