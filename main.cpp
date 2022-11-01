@@ -24,6 +24,11 @@ int main()
         exit(0);
     }
 
+    while(getline(plik,linia))
+    {
+
+    }
+
 
     return 0;
 }
