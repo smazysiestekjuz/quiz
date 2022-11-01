@@ -26,7 +26,10 @@ int main()
 
     while(getline(plik,linia))
     {
-
+        switch(nr_linii)
+        {
+            case 1: temat=linia; break;
+        }
 
 
         nr_linii++;
