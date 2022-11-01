@@ -49,6 +49,13 @@ int main()
     plik.close();
 
     for (int i=0; i<=4; i++)
+    {
+        cout<<endl<<tresc[1]<<endl;
+        cout<<"A. "<<odpA[i]<<endl;
+        cout<<"B. "<<odpB[i]<<endl;
+        cout<<"C. "<<odpC[i]<<endl;
+        cout<<"D. "<<odpD[i]<<endl;
+    }
 
     return 0;
 }
