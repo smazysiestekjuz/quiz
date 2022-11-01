@@ -16,6 +16,10 @@ int main()
   //otwarcie pliku do oczytu
     plik.open("quiz.txt",ios::in);
 
+    if (plik.good()==flase)
+    {
+
+    }
 
 
     return 0;
